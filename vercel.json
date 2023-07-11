@@ -1,9 +1,0 @@
-{
-    "functions": {
-      "**/*.js": {
-        "runtime": "nodejs18.x",
-        "memory": 128
-      }
-    }
-  }
-  
