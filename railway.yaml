@@ -1,0 +1,9 @@
+version: 2
+services:
+  - name: backend
+    type: node
+    plan: hobby
+    env:
+      - MY_ENV_VARIABLE: value
+    buildCommand: npm install
+    startCommand: node index.js
